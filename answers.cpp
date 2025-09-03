@@ -137,3 +137,33 @@
 // 4. Inheritance offers easy reuse but is rigit and tightly coupled, composition is flexible and promotes loose coupling but may need more
 //    boilerplate, while mixin-like patterns combine behaviours flexibly without strict hierarchies but can introduce method conflicts.
 //
+// POLYMORPHISM
+// 1. Answered
+// 2. Compile-time (static) polymorphism is resolved by the compiler, while runtime (dynamic) polymorphism is resolved during program
+//    execution. These are called method overloading in static polymorphism and method overriding in dynamic polymorphism.
+// 3. An abstract class is a class that cant be instantiated and may contain both implemented methods and abstract methods.
+//    An interface (in Java) or a fully abstract class (in C++) contains only abstract methods (and constants in Java) and defines
+//    a contract that implementing classes must follow. Abstract class must be used when classes share some common state, interface
+//    must be used when we want to define a contract that can be applied accross unrelated classes.
+// 4. In Java, interfaces and in C++, abstract classes with only pure virtual functions define a common contract that 
+//    different classes can implement/override, allowing objects of different types to be treated through a common reference or 
+//    pointer, thereby achieving runtime polymorphism.
+
+// ASYNC OPERATIONS
+// 1. Answered
+// 2. Asynchronous programming primarily aims to solve the problem of an application being blocked and unable to do other work
+//    while waiting for slow I/O operations to complete, thus improving responsiveness and efficiency.
+// 3. Parallel execution means tasks run literally at the same time on multiple processors/cores, while concurrent execution
+//    means tasks make progress during the same time period by interleaving execution.
+// 4. A Future/Promise is a placeholder for a value that will be produced by an asynchronous operation, letting 
+//    code continue execution and later retrieve the result (Java: Future/CompletableFuture, C++: std::future).
+
+// EXCEPTIONS
+// 1. Answered.
+// 2. In Java/C++, a try block encloses code that might throw exceptions, catch handles those exceptions, and finally ensures cleanup code 
+//    always runs. In C++, the role of finally is achieved through RAII, where resources are tied to object lifetimes so their destructors 
+//    automatically release resources when the object goes out of scope, even if an exception occurs.
+// 3. In Java, checked exceptions must be either caught or declared in the method signature, while unchecked exceptions are subclasses of 
+//    RuntimeException and do not require explicit handling. In C++, there is no distinction in the type system between checked 
+//    and unchecked exceptions — all exceptions behave like Java’s unchecked ones.
+// 4. Exceptions improve clarity and robustness, but can hurt performance and readability if misused.
