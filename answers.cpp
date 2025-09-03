@@ -74,3 +74,66 @@
 //    option default label to handle cases where no case value matches the expression.
 // 4. Short-circuit evaluation means &&, if the first condition is false, the second is not checked; in ||, if the 
 //    first condition is true, the second is not checked.
+//
+// FUNCTIONS / METHODS
+//
+// 1. Answered.
+// 2. C++ supports pass-by-value, pass-by-pointer, and pass-by-reference allowing direct or indirect modification of arguments, 
+//    whiel Java only uses pass-by-value, where object references are passed by value, allowing modification of object contents
+//    but not the reference itself.
+// 3. Function/method overloading allows multiple functions with the same name but different parameter lists, and in both C++ and Java,
+//    the functions must differ in number, type, or order of parametres - not just return type.
+// 4. Recursion is a technique where a function calls itself, and a base case is required stopping condition to avoid infinite calls
+//    and ensure correct results.
+//
+// COMMENTS
+//
+// 1. Answered
+// 2. Comments are important for code maintainability because they help explain the code's purpose and logic, making it easier 
+//    for team member's and future members to understand, modify and debugg the code efficiently.
+// 3. Documentation comment systems like Javadoc for Java and Doxygen for C++ are used to generate structure, readable documentation
+//    from special comments in the code, helping developers understand, use, and maintain the codebase more easily.
+// 4. The philosophy "Good code is self-documenting" means code should be written clearly, using meaningful names and structure so that its purpose
+//    is easy to understand without needing comments. However, comments are still necessary when explaining complex logic and algorithms, 
+//    describing why something is done, documenting assumptions, limitations and side effects, clarifying tricky parts or non-obvious decisions.
+//
+// CLASSES
+//
+// 1. Answered.
+// 2. A class is a blueprint or template that defines the structure and behaviour(data and methods), while and object(or instance) is a concrete
+//    implementation of that class created in memory.
+// 3. public, private and protected control access to class members, with public allowing full access, private restricting it to the class, and 
+//    protected allowing access to subclasses and related classes.
+// 4. A constructor is a special method used to initialize objects when a class is instantiated. A default constructor is a 
+//    constructor with no parametres. It is automatically provided by the compiler only if no other constructors are defined in the class.
+//
+// ENUMS
+//
+// 1. Answered
+// 2. Enums provide type safety, improve code readibility, prevent invalid values, and allow easy grouping of related constants compared to 
+//    using strings or integers.
+// 3. Enums improve type safety by restricting variables to predefined constant values, preventing invalid assignments, and enhance self-documentation
+//    by giving meaningful names to those values, making the code clearer and easier to understand. 
+// 4. Java enums are powerful classes with fields and methods providing strong type safety while c++ enums improve type safety over C-style enums but
+//    dont support methods or fields natively.
+//
+// INHERITANCE
+//
+// 1. Answered
+// 2. "is-a" (inheritance) models a subtype relationship where on class extends another, while "has-a" (composition) models ownership where one class
+//    contains instances of another. 
+// 3. Method overriding lets subclasses redefine superclass methods, with virtual/override in C++ and @Override in Java used to enable
+//    and verify correct overriding.
+// 4. The Diamond Problem arises from ambigious multiple inheritance; C++ solves it with virtual inheritance to share on ebase class instance, 
+//    while Java avoids it by allowing multiple interface inheritance without state. 
+//
+// MIXINS AND INTERFACES
+//
+// 1. Answered.
+// 2. Mixins and interfaces with default methods enable flexible code reuse by sharing behaviour accross classes without requiring them to 
+//    be part of the same inheritance chain.
+// 3. Java's default methods in interfaces let you provide method implementations inside interfaces allowing classes to inherit ocmmon behaviour 
+//    without needing to extend a class - achieving mixin-like code reuse while keeping flexible inheritance. 
+// 4. Inheritance offers easy reuse but is rigit and tightly coupled, composition is flexible and promotes loose coupling but may need more
+//    boilerplate, while mixin-like patterns combine behaviours flexibly without strict hierarchies but can introduce method conflicts.
+//
